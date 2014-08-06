@@ -1,0 +1,24 @@
+<html>
+ <body style='background-repeat:no-repeat; background-position: center 0;' background='Ima/fondo2.jpg'>
+  <center>
+  <div style='position:relative; background-position: center 0; width:300px; top:150px; left:150px; background:#00A0C2;'>
+  <table cellpadding='5'>
+   <form method=GET action="registrarse.php" autocomplete="off">
+    <tr><td>Nombres:</td><td><input type=text name="nom"><br></td></tr>
+    <tr><td>Apellidos:</td><td><input type=text name="ape"><br></td></tr>
+    <tr><td>Ciudad:</td><td><input type=text name="ci"><br></td></tr>
+    <tr><td>Telefono:</td><td><input type=text name="tel"><br></td></tr>
+    <tr><td>Usuario:</td><td><input type=text name="usuario"><br></td></tr>
+    <tr><td>Clave:</td><td><input type=text name="clave"><br></td></tr>
+    <tr><td>Que es:</td><td><SELECT name="rango">
+       <OPTION selected label="Estudiante" value="1">Estudiante</OPTION>
+       <OPTION label="Profesor" value="2">Profesor</OPTION>
+       <OPTION label="Administrador" value="3">Administrador</OPTION>
+    </SELECT><br></td></tr>
+    <tr><td></td><td><input type="submit" value="Enviar"></td></tr>
+   </form>
+  </table>
+  </div>
+  </center>
+ </body>
+</html>
